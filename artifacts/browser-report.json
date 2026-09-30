@@ -1,0 +1,197 @@
+{
+  "results": [
+    {
+      "game": "lumen",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "10 points"
+    },
+    {
+      "game": "orbit",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "6 / 6 stages"
+    },
+    {
+      "game": "relay",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "5 moves"
+    },
+    {
+      "game": "twin",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "4 moves"
+    },
+    {
+      "game": "pulse",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "3 moves"
+    },
+    {
+      "game": "lantern",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "9 moves"
+    },
+    {
+      "game": "parcel",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "8 moves"
+    },
+    {
+      "game": "cipher",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "3 tests · identified"
+    },
+    {
+      "game": "signal",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "30 / 30 correct"
+    },
+    {
+      "game": "gravity",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "7 moves"
+    },
+    {
+      "game": "mirror",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "1 moves"
+    },
+    {
+      "game": "tempo",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "18 / 18 beats"
+    },
+    {
+      "game": "comet",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "12 / 12 caught"
+    },
+    {
+      "game": "stillwater",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "5 / 5 clear paths"
+    },
+    {
+      "game": "switchyard",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "6 moves"
+    },
+    {
+      "game": "recall",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "5 / 5 recalled"
+    },
+    {
+      "game": "lumen",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "10 points"
+    },
+    {
+      "game": "orbit",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "6 / 6 stages"
+    },
+    {
+      "game": "relay",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "5 moves"
+    },
+    {
+      "game": "twin",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "2 moves"
+    },
+    {
+      "game": "pulse",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "3 moves"
+    },
+    {
+      "game": "lantern",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "7 moves"
+    },
+    {
+      "game": "parcel",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "8 moves"
+    },
+    {
+      "game": "cipher",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "3 tests · identified"
+    },
+    {
+      "game": "signal",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "30 / 30 correct"
+    },
+    {
+      "game": "gravity",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "5 moves"
+    },
+    {
+      "game": "mirror",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "1 moves"
+    },
+    {
+      "game": "tempo",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "18 / 18 beats"
+    },
+    {
+      "game": "comet",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "12 / 12 caught"
+    },
+    {
+      "game": "stillwater",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "5 / 5 clear paths"
+    },
+    {
+      "game": "switchyard",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "5 moves"
+    },
+    {
+      "game": "recall",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "5 / 5 recalled"
+    }
+  ],
+  "failures": []
+}

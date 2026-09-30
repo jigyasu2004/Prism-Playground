@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-09-30T09:43:59.865Z",
+  "node": "v24.19.0",
+  "unit": {
+    "passed": 28,
+    "failed": 0,
+    "generatedConfigurations": 5760
+  },
+  "browser": {
+    "desktopPassed": 16,
+    "touchPassed": 16,
+    "failed": 0
+  },
+  "lifecycle": "PASSED",
+  "timingAndKeyboard": "PASSED",
+  "securityRegressions": {
+    "passed": 10,
+    "failed": 0
+  },
+  "build": "PASSED",
+  "production": {
+    "hostedUrl": "NOT DEPLOYED",
+    "github": "NOT PUSHED",
+    "identity": "UNVERIFIED",
+    "managedD1": "UNVERIFIED"
+  },
+  "screenshots": "Synthetic QA profile, actual game rendering. No user production history.",
+  "followupResultScreens": {
+    "passed": 8,
+    "failed": 0
+  },
+  "interactiveFlows": {
+    "passed": 48,
+    "failed": 0,
+    "tutorialAndLifecycle": 32,
+    "puzzleHintUndo": 16,
+    "devices": [
+      "desktop",
+      "Chromium touch emulation"
+    ]
+  },
+  "reviewFollowup": "Daily eligibility computed inside atomic D1 INSERT; synchronized concurrent regression reproduced old defect and passes after fix"
+}

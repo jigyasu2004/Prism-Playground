@@ -1,0 +1,293 @@
+{
+  "results": [
+    {
+      "game": "lumen",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "orbit",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "relay",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "twin",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "pulse",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "lantern",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "parcel",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "cipher",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "signal",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "gravity",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "mirror",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "tempo",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "comet",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "stillwater",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "switchyard",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "recall",
+      "device": "desktop",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "relay",
+      "device": "desktop",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "twin",
+      "device": "desktop",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "pulse",
+      "device": "desktop",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "lantern",
+      "device": "desktop",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "parcel",
+      "device": "desktop",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "gravity",
+      "device": "desktop",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "mirror",
+      "device": "desktop",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "switchyard",
+      "device": "desktop",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "lumen",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "orbit",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "relay",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "twin",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "pulse",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "lantern",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "parcel",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "cipher",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "signal",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "gravity",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "mirror",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "tempo",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "comet",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "stillwater",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "switchyard",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "recall",
+      "device": "touch",
+      "flow": "interactive tutorial action, tutorial restart/pause/resume/exit, real start/pause/resume/restart/exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "relay",
+      "device": "touch",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "twin",
+      "device": "touch",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "pulse",
+      "device": "touch",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "lantern",
+      "device": "touch",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "parcel",
+      "device": "touch",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "gravity",
+      "device": "touch",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "mirror",
+      "device": "touch",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    },
+    {
+      "game": "switchyard",
+      "device": "touch",
+      "flow": "hint, legal move, undo, assisted restart, exit",
+      "status": "PASSED"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,53 @@
+{
+  "results": [
+    {
+      "game": "lumen",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "10 points"
+    },
+    {
+      "game": "orbit",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "6 / 6 stages"
+    },
+    {
+      "game": "twin",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "5 moves"
+    },
+    {
+      "game": "pulse",
+      "device": "desktop",
+      "status": "PASSED",
+      "score": "5 moves"
+    },
+    {
+      "game": "lumen",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "10 points"
+    },
+    {
+      "game": "orbit",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "6 / 6 stages"
+    },
+    {
+      "game": "twin",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "4 moves"
+    },
+    {
+      "game": "pulse",
+      "device": "touch",
+      "status": "PASSED",
+      "score": "1 moves"
+    }
+  ],
+  "failures": []
+}
