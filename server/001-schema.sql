@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS migrations (version INTEGER PRIMARY KEY, applied_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS profiles (user_id TEXT PRIMARY KEY, xp INTEGER NOT NULL DEFAULT 0 CHECK(xp>=0), crystals INTEGER NOT NULL DEFAULT 0 CHECK(crystals>=0), equipped TEXT NOT NULL DEFAULT '{}', created_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS sessions (id TEXT PRIMARY KEY, user_id TEXT NOT NULL, expires INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS runs (id TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES profiles(user_id), game TEXT NOT NULL, version TEXT NOT NULL, difficulty TEXT NOT NULL, mode TEXT NOT NULL, seed TEXT NOT NULL, started_at INTEGER NOT NULL, ended_at INTEGER, elapsed INTEGER NOT NULL DEFAULT 0, active_since INTEGER, state TEXT NOT NULL, status TEXT NOT NULL, assisted INTEGER NOT NULL DEFAULT 0, practice INTEGER NOT NULL DEFAULT 0, revision INTEGER NOT NULL DEFAULT 0, daily TEXT, summary TEXT, reward TEXT);
+CREATE INDEX IF NOT EXISTS runs_user_date ON runs(user_id, started_at DESC);
+CREATE TABLE IF NOT EXISTS actions (run_id TEXT NOT NULL REFERENCES runs(id), action_id TEXT NOT NULL, revision INTEGER NOT NULL, timestamp INTEGER NOT NULL, action TEXT NOT NULL, PRIMARY KEY(run_id,action_id));
+CREATE TABLE IF NOT EXISTS reward_transactions (run_id TEXT PRIMARY KEY REFERENCES runs(id), user_id TEXT NOT NULL, xp INTEGER NOT NULL, crystals INTEGER NOT NULL, breakdown TEXT NOT NULL, created_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS inventory (user_id TEXT NOT NULL, item_id TEXT NOT NULL, purchased_at TEXT NOT NULL, PRIMARY KEY(user_id,item_id));
+CREATE TABLE IF NOT EXISTS achievements (user_id TEXT NOT NULL, achievement TEXT NOT NULL, awarded_at TEXT NOT NULL, run_id TEXT NOT NULL, PRIMARY KEY(user_id,achievement));
+CREATE TABLE IF NOT EXISTS challenges (user_id TEXT NOT NULL, day TEXT NOT NULL, challenge TEXT NOT NULL, run_id TEXT NOT NULL, PRIMARY KEY(user_id,day,challenge));
+INSERT OR IGNORE INTO migrations VALUES(1,datetime('now'));
