@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1790757402952,
+      "tag": "0000_prism_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790757487686,
+      "tag": "0001_atomic_rewards",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790758069537,
+      "tag": "0002_private_daily_seeds",
+      "breakpoints": true
+    }
+  ]
+}
