@@ -1,0 +1,466 @@
+{
+  "baseSourceCommit": "f8f5358fada5ed378355c281cebcd83447a8c0e7",
+  "repository": "jigyasu2004/DOT-game",
+  "visibility": "public explicitly approved by owner",
+  "generatedAt": "2026-09-30T11:42:56.172Z",
+  "excluded": [
+    "STATUS.json",
+    "artifacts/collection-1440.png",
+    "artifacts/collection-320.png",
+    "artifacts/collection-768.png",
+    "artifacts/collection-desktop.png",
+    "artifacts/collection-mobile.png",
+    "artifacts/lumen-desktop-first.png",
+    "artifacts/lumen-desktop-result.png",
+    "artifacts/lumen-mobile-result.png",
+    "artifacts/orbit-desktop-result.png",
+    "artifacts/orbit-mobile-result.png",
+    "artifacts/pulse-desktop-result.png",
+    "artifacts/pulse-mobile-result.png",
+    "artifacts/twin-desktop-result.png",
+    "artifacts/twin-mobile-result.png",
+    "dist/client/app.mjs",
+    "dist/client/core.mjs",
+    "dist/client/favicon.svg",
+    "dist/client/games/cipher.mjs",
+    "dist/client/games/comet.mjs",
+    "dist/client/games/gravity.mjs",
+    "dist/client/games/lantern.mjs",
+    "dist/client/games/lumen.mjs",
+    "dist/client/games/mirror.mjs",
+    "dist/client/games/orbit.mjs",
+    "dist/client/games/parcel.mjs",
+    "dist/client/games/pulse.mjs",
+    "dist/client/games/puzzle.mjs",
+    "dist/client/games/recall.mjs",
+    "dist/client/games/relay.mjs",
+    "dist/client/games/signal.mjs",
+    "dist/client/games/stillwater.mjs",
+    "dist/client/games/switchyard.mjs",
+    "dist/client/games/tempo.mjs",
+    "dist/client/games/twin.mjs",
+    "dist/client/index.html",
+    "dist/client/registry.mjs",
+    "dist/client/style.css",
+    "dist/client/touch-input.mjs",
+    "dist/client/views-other.mjs",
+    "dist/client/views.mjs",
+    "dist/server/index.js",
+    "scripts/package.ps1",
+    "tests/browser-debug.mjs",
+    "tests/browser-first.mjs"
+  ],
+  "normalized": [
+    ".gitignore",
+    "README.md",
+    "TEST-REPORT.md",
+    "tests/browser-edges.mjs",
+    "tests/browser-flows.mjs",
+    "tests/browser-timing.mjs",
+    "tests/browser.mjs"
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 251,
+      "sha256": "0ff5f64215620c91200ab502937657b257460c67f5d08f37cad554356507f940",
+      "gitBlobSha": "47bea72eb2f949e9c87d80e6df1e937101040563"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 45,
+      "sha256": "8d75fbed0329d55480242ea79c61cbdd3da312c700298bfba9572b81ec325cc6",
+      "gitBlobSha": "a0354c4fa34b58d66d0c314cc010d8cf30c0af3c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 221,
+      "sha256": "2b5094db31a1987edffa5df00111d6c610168e16bd28e4fe20e58fbdac9b288e",
+      "gitBlobSha": "876245ce9c2df41873f25794e48b9aae3b423df8"
+    },
+    {
+      "path": "GAME-RULES.md",
+      "bytes": 6688,
+      "sha256": "a595971642b15648fc50656a790497ddcd75aa63bdbb7fb14a2d835ce2476b10",
+      "gitBlobSha": "290a2c03c887764996e536966ada8ca9dc4a7701"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8183,
+      "sha256": "0f1e17073ed3fbb8267a5fe4f4bbc79fc236fcd9fb3bc0bf0908373805f642bd",
+      "gitBlobSha": "e064028d80e27482bc37136d955d7bcc6e1d85b6"
+    },
+    {
+      "path": "TEST-REPORT.md",
+      "bytes": 8475,
+      "sha256": "6716bf4a7289c10c57ca2722e17ae266c2b811832b765d3788eaadffabb035bb",
+      "gitBlobSha": "a3a9fed6fc4343039408fcf0a09c2a276e219c6f"
+    },
+    {
+      "path": "artifacts/browser-flows-report.json",
+      "bytes": 9103,
+      "sha256": "c3e4bea94f4aca6545778d5da306f41582ad1906e5fea80dc6c40012a1e2f58c",
+      "gitBlobSha": "27a845350c3bb2510ee6c0b288d0c1207f9813a3"
+    },
+    {
+      "path": "artifacts/browser-focused-report.json",
+      "bytes": 956,
+      "sha256": "33cdca32bf4441c4cda6ae426a94de7ba3ffb4aa9a0b4210c1975ad7e122af02",
+      "gitBlobSha": "77eed8e000933f15d011b5b98370915ccd13fd00"
+    },
+    {
+      "path": "artifacts/browser-report.json",
+      "bytes": 3809,
+      "sha256": "0aac661f310400ff341db0074943710a1eea2799d199802b127a5331e894f270",
+      "gitBlobSha": "90cf2625da6d305a1c32189b15fdf051e80d5020"
+    },
+    {
+      "path": "artifacts/verification-summary.json",
+      "bytes": 1039,
+      "sha256": "bd34fae9f3b57382e9256113abe57d8af33658b1790b8f2bf29854c2ff742379",
+      "gitBlobSha": "f749ab6fb5243a837cd6638a3409d130652f0529"
+    },
+    {
+      "path": "cloud/schema.sql",
+      "bytes": 5924,
+      "sha256": "4b540ad4d126109d15affbce547eea619950ad22575d7391f3eb8a752e055f01",
+      "gitBlobSha": "740c2459cb1e323486904b5620ae9ef789c619a3"
+    },
+    {
+      "path": "cloud/worker.mjs",
+      "bytes": 10522,
+      "sha256": "45e25f02e9aad29bd170240e8cbde589592b21c63812065806a8e0098730fc85",
+      "gitBlobSha": "e74734c00b09d0b6223104f0eb6bff87bc0d3e5a"
+    },
+    {
+      "path": "db/schema.ts",
+      "bytes": 2887,
+      "sha256": "9d020dba468e526cde0736420f9671112794db00a06ffaf00bfb9244a914dc49",
+      "gitBlobSha": "c93d044c83ea7af90680cfd41a5289ecaec7080e"
+    },
+    {
+      "path": "drizzle.config.ts",
+      "bytes": 131,
+      "sha256": "b8f434e1a6e2b36f7a309a3ca558a6d1474639056345906fe41db2ba1b82133e",
+      "gitBlobSha": "6e9d8285f0641f061e9bc70a821839db0770dcf8"
+    },
+    {
+      "path": "drizzle/0000_prism_schema.sql",
+      "bytes": 2541,
+      "sha256": "c0ed89ad44953a1bbb6c6d7252306694e6ae63862a10a1fd233777de0ab25600",
+      "gitBlobSha": "b2af13eeb617cbb3979215a08755528a6f083d35"
+    },
+    {
+      "path": "drizzle/0001_atomic_rewards.sql",
+      "bytes": 3749,
+      "sha256": "6e916858b785da23b373c62cf2b30482b47b668ab903de78b8f705503287d99a",
+      "gitBlobSha": "fb964f6df05aa4b5546277af2f5124e26d2de78d"
+    },
+    {
+      "path": "drizzle/0002_private_daily_seeds.sql",
+      "bytes": 128,
+      "sha256": "878777c8e41346ce4b48d93d88d47b5a5b25fa02174441b58fb6cd1162296ab0",
+      "gitBlobSha": "a335a812e7c42bfdffd80139e2bc15a28c1a489c"
+    },
+    {
+      "path": "drizzle/meta/0000_snapshot.json",
+      "bytes": 13215,
+      "sha256": "15fcf4e1c2d0c13d8646175903acff41ab939d2ccd9c536b24a20480c8f7e091",
+      "gitBlobSha": "d80b01e440f94cd73f3cf228b02cca715a38b5f0"
+    },
+    {
+      "path": "drizzle/meta/0001_snapshot.json",
+      "bytes": 13215,
+      "sha256": "fdfc94bd30b08de7a1b51e71872d202c995fe08a786cc939fada51e611556955",
+      "gitBlobSha": "1e41c792aa5b18a4f95066bb3360c040024207b6"
+    },
+    {
+      "path": "drizzle/meta/0002_snapshot.json",
+      "bytes": 14125,
+      "sha256": "300fd9616f753a8e70ae8d1397c3925bd5e00ade438824d4fbe3b6eb43048461",
+      "gitBlobSha": "41c4a45940f25c3135cd184df689b2d9e0f75cdd"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "bytes": 491,
+      "sha256": "f57bdbfc9d5e2e28348d1145306c8f117e08951b4e8489bbd2141f17a8451589",
+      "gitBlobSha": "e4148f529afa96821f5b20a798c574cca0443ee0"
+    },
+    {
+      "path": "package.json",
+      "bytes": 676,
+      "sha256": "835fc9bde6cf3b0e5afbb371dbf2c1b579bc170897984fec2d4ab0c74f71e6c2",
+      "gitBlobSha": "9780a18138863911e3c4f13fb155c6f6f9e3ddd0"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 29446,
+      "sha256": "6793064b0d5105b29eb575bab3ce226b469730f001319192c37ec4c1649d3eeb",
+      "gitBlobSha": "48208a36dd9db0fa259c11724ae45959567d04e1"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "bytes": 30,
+      "sha256": "a8dbaf09fa36dd9d340ed79ee1b110240dd5dea0f269582f26a1136a2e745bbd",
+      "gitBlobSha": "49c0ad74208df0f3edd27c0dc970067b13948874"
+    },
+    {
+      "path": "public/app.mjs",
+      "bytes": 21697,
+      "sha256": "f9a37c278ebce98db4b5ed5ae6115fa1c6b8508eb84627f6dc17c055c57ba45a",
+      "gitBlobSha": "458dfd07733728e269e7e72abb1e22f77f035856"
+    },
+    {
+      "path": "public/core.mjs",
+      "bytes": 2088,
+      "sha256": "7eefa465cf0bfd1256b378646151c03a39697569aaf1920a0d21b8343e7485cf",
+      "gitBlobSha": "c8c437c0bf07dbb63685d0f59a59ef281443b161"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 265,
+      "sha256": "6eb915ed54e677796d6b52498e7eeee0af77d789d2c5bf01e30ec41de84b9b15",
+      "gitBlobSha": "c740636b9dd6c702a9b2abc6069f863ecda1d7c2"
+    },
+    {
+      "path": "public/games/cipher.mjs",
+      "bytes": 1835,
+      "sha256": "92f261bf6b57c4c4ed03dd07fa5627be7851e07e1fab1f1985b32133423a2cc8",
+      "gitBlobSha": "ab8fbc3e69a7df9bee5d954ca895d1c4bb3e8aae"
+    },
+    {
+      "path": "public/games/comet.mjs",
+      "bytes": 1806,
+      "sha256": "aa6743b11f4f8bf265ea60421f0dabb9fcb6b5a18b1b511cd2f1645112b407af",
+      "gitBlobSha": "979ee5f760e2be2ad53c84d8d2e7254312dd1e7e"
+    },
+    {
+      "path": "public/games/gravity.mjs",
+      "bytes": 1719,
+      "sha256": "c6f276c68850173e228800d12be527bcb55459b6ea41e8f7dce71486a90dad3f",
+      "gitBlobSha": "7a3ad95ccd5f3d478f9a23c769a66f67eee7ef67"
+    },
+    {
+      "path": "public/games/lantern.mjs",
+      "bytes": 1887,
+      "sha256": "ac41ce37013df3e29147f3b7a0d05e407b516298fc6cacc965a780ba81693856",
+      "gitBlobSha": "4e654056815b4e97b66accd9dd535f5c03e7f57f"
+    },
+    {
+      "path": "public/games/lumen.mjs",
+      "bytes": 2433,
+      "sha256": "f1424cd9974c6da1b785b52c35d3fc31626c528dde33e08b8a3b62d9e49a57c0",
+      "gitBlobSha": "a3ce9983ed2f84ab5d3377f4c56bb33c6543eba2"
+    },
+    {
+      "path": "public/games/mirror.mjs",
+      "bytes": 2230,
+      "sha256": "a40f35cd0a0706ef3c99de20bf7671fb50948676fc803e7b6ed86922506ccd0f",
+      "gitBlobSha": "531986343a1bab0feaed2a8166e733394f60857b"
+    },
+    {
+      "path": "public/games/orbit.mjs",
+      "bytes": 2544,
+      "sha256": "474c2fbfd1019ed740467a6ad39d6faf3952f55c64a0fbdc3f15fc71a512e380",
+      "gitBlobSha": "cd79be7540f443aca1f6dfd626531dc1d9ffa6b4"
+    },
+    {
+      "path": "public/games/parcel.mjs",
+      "bytes": 2829,
+      "sha256": "c8f7432d7a0c624d3e9f06f62dcf49ffbbe25e61ef90e656a136874344bf0466",
+      "gitBlobSha": "14b947bae329f44149a69fa553c762a77120262f"
+    },
+    {
+      "path": "public/games/pulse.mjs",
+      "bytes": 2497,
+      "sha256": "dd0969583b17d8dd24cf291a4cfe5e3c98e2efd20ac6d8e9814fd204048acc6d",
+      "gitBlobSha": "31035bb94a4922682c2a01099252a16664bca306"
+    },
+    {
+      "path": "public/games/puzzle.mjs",
+      "bytes": 838,
+      "sha256": "67f45dd3ccce2e72da20003f13e4a5c5646e3bd503fcd780cc67d3c04bb0f035",
+      "gitBlobSha": "1447fd184fbe8f6a19c909db0852b8f3ac895a5a"
+    },
+    {
+      "path": "public/games/recall.mjs",
+      "bytes": 2447,
+      "sha256": "ae72d583b26e3ded60d70b32772faa6112ffa140c39bbb5ea988c4a71b1dadda",
+      "gitBlobSha": "70ba71de588e642d44e3b8fccc2efa744bd46b0a"
+    },
+    {
+      "path": "public/games/relay.mjs",
+      "bytes": 2542,
+      "sha256": "35025760dd91297e2339c105b5106c66396c0ca3e4e921087c41b31750a3b4b1",
+      "gitBlobSha": "3d82c4bb7abb1194b25391ec9c2a1645c969edf9"
+    },
+    {
+      "path": "public/games/signal.mjs",
+      "bytes": 1945,
+      "sha256": "f58aab44d9065281b10ea83c8aed263434cae854d1afaad49c5566ce1819cf15",
+      "gitBlobSha": "f8522d74ff0b8ded93de14e14708338b4a099010"
+    },
+    {
+      "path": "public/games/stillwater.mjs",
+      "bytes": 2290,
+      "sha256": "5bb875a596010c40d1b7978f27e7cec621c06b806598670c9553feb45315b4bf",
+      "gitBlobSha": "20c2de83a5bdd6084cd73a9b44c331a6eea2988c"
+    },
+    {
+      "path": "public/games/switchyard.mjs",
+      "bytes": 1790,
+      "sha256": "3f4909e999fd3edeac14262843c103e323b2bb85085b0ac05c9eb8ee75bd80fa",
+      "gitBlobSha": "a4e81614ff711aedd84a19f6c9c7f3e91bb21378"
+    },
+    {
+      "path": "public/games/tempo.mjs",
+      "bytes": 2238,
+      "sha256": "2753be0895e6c1d949e8364b8cafe52148b98ffc3a4b0cf1e765a694bc80773a",
+      "gitBlobSha": "a0b6b8a0588d249939875a75accb052759412037"
+    },
+    {
+      "path": "public/games/twin.mjs",
+      "bytes": 1738,
+      "sha256": "fa9887162723bd8d09525091a59bdf3f48690224961294b9592b3bfa772e2e05",
+      "gitBlobSha": "3ccd9f3e3da613e144615ed53a79829060646a80"
+    },
+    {
+      "path": "public/index.html",
+      "bytes": 567,
+      "sha256": "521aeedc819bd94ad9e81e37cb79fbb81b8660616b209230c2344083a3a2d6f1",
+      "gitBlobSha": "c9bba11f093fbf2975d338c53f1d50e317ec9f70"
+    },
+    {
+      "path": "public/registry.mjs",
+      "bytes": 933,
+      "sha256": "f00a65970f0077bf93ac389bede22df89f8e854deb57418e9df10bbfc3e0ec2e",
+      "gitBlobSha": "bd63769f2572f684ca56dac44b1e78c968ad3afb"
+    },
+    {
+      "path": "public/style.css",
+      "bytes": 11729,
+      "sha256": "db3803520460a328df548a14e539e5d272c0bac60abf731bf59c3f7d254b15fe",
+      "gitBlobSha": "876573a268cf237e95e58c2658f672a51b09031d"
+    },
+    {
+      "path": "public/touch-input.mjs",
+      "bytes": 1875,
+      "sha256": "9df0b4b2941a9562d085f867dc3eab878f2c23fe6172d4e81f71a355646ed0af",
+      "gitBlobSha": "cee43b682ae392131b75df3f3381e6d549040449"
+    },
+    {
+      "path": "public/views-other.mjs",
+      "bytes": 23906,
+      "sha256": "c55046258739ff1b943c6a7d8ff3619cd57a666c0427ca866b82a1393de39bc7",
+      "gitBlobSha": "d87cf9cb73723614d5504d6eeb88393aa7ba2038"
+    },
+    {
+      "path": "public/views.mjs",
+      "bytes": 3857,
+      "sha256": "d10c0bebb8cc41848f42d3e4f18275572bbe756af8685859b18759d15622b788",
+      "gitBlobSha": "1b4497b12d19642700577ce97a973a9d2ebee020"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "bytes": 544,
+      "sha256": "c8faae1ff970c3b9b334a49ec214c81a0f7287792227db27c84a870a11a19463",
+      "gitBlobSha": "ed8db79c28b986a45036514e2029b5eadd4bc81e"
+    },
+    {
+      "path": "server/001-schema.sql",
+      "bytes": 1991,
+      "sha256": "8c20f418b19de5c738a6ec8d3c5c8f9d38299f4439e09ade055ad8de689734bc",
+      "gitBlobSha": "3d5e4df1a9598527fa99ea6c769a30dde017950b"
+    },
+    {
+      "path": "server/002-daily-seeds.sql",
+      "bytes": 183,
+      "sha256": "d71e9f9ddc1d0732852ce38793069ab27ee6132c720767b558011c5739cc8511",
+      "gitBlobSha": "3e9d1d28801d84d2e9fecbdec1056f28d78fc7ca"
+    },
+    {
+      "path": "server/auth.mjs",
+      "bytes": 4723,
+      "sha256": "69d31f63d1b4ad66abcc4b1af8a3904a1d74fcf474049aea34155d2b48ee59b3",
+      "gitBlobSha": "c78ca3e167cc36e9c1cd7c9b7a91cbb05cdbb0f1"
+    },
+    {
+      "path": "server/economy.mjs",
+      "bytes": 877,
+      "sha256": "3f9fabb5d2a07f500329c2bb15df70a6cef21d71b6db22809f0dcec5273a0a1d",
+      "gitBlobSha": "c71f6c648020b2f30212bd9205acba4563c817f7"
+    },
+    {
+      "path": "server/index.mjs",
+      "bytes": 11050,
+      "sha256": "6dc61d2f4bf14932b04c27ce5966739d7feea78071e2bb9db4c909dcacb90914",
+      "gitBlobSha": "c8ffca52e49d0aa4878d65726ab3dc6f95fe2e16"
+    },
+    {
+      "path": "server/run-policy.mjs",
+      "bytes": 1791,
+      "sha256": "395e56373eb83d6837c850a99df6b10f08540cc102ae3e9a0c459ccf7fbec9ac",
+      "gitBlobSha": "9e3f1af654a08e2f0497c663f4d9efdbb803c582"
+    },
+    {
+      "path": "server/store.mjs",
+      "bytes": 2583,
+      "sha256": "596efbaee37d1ea15ec438918e98625198e7505c28d7b979f49ed66ca26b5f99",
+      "gitBlobSha": "b8f4ca885cd7462e1da679bf4b40c9da458b6975"
+    },
+    {
+      "path": "tests/browser-edges.mjs",
+      "bytes": 7434,
+      "sha256": "4b8d06e38ec3752d50b72b1e5220d565c05c100ec05518d1a89802b525471a99",
+      "gitBlobSha": "7f17e069784a21395644e4fb2ade728def42126a"
+    },
+    {
+      "path": "tests/browser-flows.mjs",
+      "bytes": 11276,
+      "sha256": "8a4148ae3bdcf639f014c8e439076e7133d9c1f1823dcf288eafeed9562120ea",
+      "gitBlobSha": "062d86387daacd8090a298be80baf7d0193c6c4a"
+    },
+    {
+      "path": "tests/browser-timing.mjs",
+      "bytes": 4345,
+      "sha256": "96fe4a5ba1508ce1be14924ae120958d8b6c3d440f0cdf66a53c6112b50344f2",
+      "gitBlobSha": "0276265a5acc5537111e694a91c013d166c2f6ba"
+    },
+    {
+      "path": "tests/browser.mjs",
+      "bytes": 9171,
+      "sha256": "c22e4690f96b44e02a4e76305e52afb5576635d678c844496d93de4b5e24a7c4",
+      "gitBlobSha": "416d952e477d2493c36cb490bf5b4713601b817e"
+    },
+    {
+      "path": "tests/cloud.test.mjs",
+      "bytes": 3955,
+      "sha256": "fd9e0a1de3654798a56040970977f66eca90f603c1a15222e050e45a6dabf8d5",
+      "gitBlobSha": "32a2fd4533636773131503905e1d823d9efa46ca"
+    },
+    {
+      "path": "tests/games.test.mjs",
+      "bytes": 4353,
+      "sha256": "2b5a822565cd6da5f192b7c2a1b1a2f250591c281ab3eb8d1698072dc4c423bd",
+      "gitBlobSha": "3f7dbac2cf7c03dcad7249c8d9e370797231a4f3"
+    },
+    {
+      "path": "tests/review.test.mjs",
+      "bytes": 11387,
+      "sha256": "f9cd47b9f22cbcaccf1fc365572df5c1ec20f251c54636e0a2079e9a5e1ff51d",
+      "gitBlobSha": "427ef098f4fe61d204854d2635cb4540de4c9b6c"
+    },
+    {
+      "path": "tests/security.test.mjs",
+      "bytes": 4345,
+      "sha256": "f01b4aec78efaf0cd13e73a3705c0d35faa7d7f19f6a4d45d86ebd80468594b0",
+      "gitBlobSha": "cd899f3ed7ca6d7f6a3495d988a9eb0a4f90b89f"
+    },
+    {
+      "path": "tests/vertical.test.mjs",
+      "bytes": 2841,
+      "sha256": "fe5bd8e5cdca1ec80e9c15eb7b7445d8935f28055a2d479a01a5dbc9769e430b",
+      "gitBlobSha": "80b1671f49e85aee0077e7ee68d71b74683fc3ff"
+    }
+  ]
+}

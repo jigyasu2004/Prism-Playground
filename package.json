@@ -1,0 +1,25 @@
+{
+  "name": "prism-playground",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node server/index.mjs",
+    "dev": "node server/index.mjs --local",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "build": "node scripts/build.mjs",
+    "db:generate": "drizzle-kit generate",
+    "test:edges": "node tests/browser-edges.mjs",
+    "test:timing": "node tests/browser-timing.mjs",
+    "test:flows": "node tests/browser-flows.mjs"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.11",
+    "drizzle-orm": "^0.45.3",
+    "esbuild": "^0.28.2"
+  }
+}
