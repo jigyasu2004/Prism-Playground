@@ -1,0 +1,18 @@
+import * as lumen from './games/lumen.mjs';
+import * as orbit from './games/orbit.mjs';
+import * as relay from './games/relay.mjs';
+import * as twin from './games/twin.mjs';
+import * as pulse from './games/pulse.mjs';
+import * as lantern from './games/lantern.mjs';
+import * as parcel from './games/parcel.mjs';
+import * as cipher from './games/cipher.mjs';
+import * as signal from './games/signal.mjs';
+import * as gravity from './games/gravity.mjs';
+import * as mirror from './games/mirror.mjs';
+import * as tempo from './games/tempo.mjs';
+import * as comet from './games/comet.mjs';
+import * as stillwater from './games/stillwater.mjs';
+import * as switchyard from './games/switchyard.mjs';
+import * as recall from './games/recall.mjs';
+export const games={lumen,orbit,relay,twin,pulse,lantern,parcel,cipher,signal,gravity,mirror,tempo,comet,stillwater,switchyard,recall};
+export const roster=Object.values(games).map(g=>g.meta);
