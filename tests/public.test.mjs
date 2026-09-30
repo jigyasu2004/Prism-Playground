@@ -15,6 +15,9 @@ test('public guests can play, retain their session, and cannot read another visi
     const page = await call('/');
     assert.equal(page.status, 200);
     assert.match(await page.text(), /id="app"/);
+    const moduleResponse = await call('/assets/app.mjs');
+    assert.equal(moduleResponse.status, 200);
+    assert.match(moduleResponse.headers.get('content-type'), /javascript/);
     const cookieHeader = page.headers.get('set-cookie');
     assert.match(cookieHeader, /HttpOnly; Secure; SameSite=Lax/);
     const first = cookieHeader.split(';')[0];
