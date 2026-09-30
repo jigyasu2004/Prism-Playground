@@ -9,11 +9,12 @@ const app = createApp({
   dbPath: process.env.DB_PATH,
   origin: process.env.APP_ORIGIN,
   authConfig: {
+    publicAccess: process.env.PUBLIC_ACCESS === 'true',
     issuer: process.env.OIDC_ISSUER,
     clientId: process.env.OIDC_CLIENT_ID,
     allowed: process.env.OIDC_ALLOWED_SUBJECTS,
   },
 });
 app.server.listen(port, '0.0.0.0', () => {
-  console.log(`Prism Playground production private server on port ${port}`);
+  console.log(`Prism Playground production server on port ${port}`);
 });
