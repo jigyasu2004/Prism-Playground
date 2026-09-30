@@ -1,6 +1,6 @@
 # Prism Playground
 
-A server-backed browser arcade with sixteen complete games. Source is public in this repository by the owner’s explicit approval; hosted gameplay and player progress still require private authenticated access. No external artwork, analytics, advertising, public leaderboards, or gameplay purchases.
+A server-backed browser arcade with sixteen complete games. Source is public in this repository by the owner’s explicit approval; hosted gameplay supports public guest access, with separate progress for each browser. No external artwork, analytics, advertising, public leaderboards, or gameplay purchases.
 
 ## Run locally
 
@@ -14,11 +14,11 @@ Open `http://127.0.0.1:4317`. This explicitly local mode binds only to loopback 
 
 ## Production Node hosting
 
-Hostinger deployment is requested and remains unverified. This repository does not contain production credentials, player databases, private history, or a configured hosted identity provider.
+Hostinger uses Node.js 24 and entry file `server/hostinger.mjs`. Set `PUBLIC_ACCESS=true`, `APP_ORIGIN` to the HTTPS site URL, and `DB_PATH` to the server database path. Public mode issues an unguessable, secure HttpOnly guest session and keeps each visitor's progress separate. Guest mode does not provide cross-device sign-in. The current Hostinger database uses temporary storage; progress can reset on hosting restarts or redeployments.
 
-The Node entry point requires `APP_ORIGIN` and an explicit `DB_PATH`. Secure identity stays closed unless the origin is HTTPS and the provider/allowlist are configured. The deployment owner must verify that the database path is on persistent storage. Set `OIDC_ISSUER`, `OIDC_CLIENT_ID`, and `OIDC_ALLOWED_SUBJECTS` through secure hosting configuration, using an existing OIDC provider supporting public-client PKCE. Register `/auth/callback`. Do not paste secrets into chat or source. Authentication is issuer/audience/expiry/nonce/signature verified, with an explicit subject allowlist and secure HttpOnly sessions. Every stored-session request rechecks the configured issuer and current subject allowlist; removed identities lose access. No credential from the original conversation was accessed or reused.
+Without `PUBLIC_ACCESS=true`, production remains private and requires `OIDC_ISSUER`, `OIDC_CLIENT_ID`, and `OIDC_ALLOWED_SUBJECTS`. Existing private identities are not accessible through public guest sessions.
 
-The production entry point is `node server/index.mjs`. The user must approve any new identity setup, credentials, persistent access, costs, or legal terms. Provider-specific deployment and real cross-device identity remain unverified until configured. Back up the persistent database; ephemeral deployment filesystems are unsuitable.
+Browser modules load through `/assets/` so the Node server supplies their JavaScript content type even when the hosting proxy serves `.mjs` files as plain text.
 
 ## Optional private ChatGPT Sites adapter
 
